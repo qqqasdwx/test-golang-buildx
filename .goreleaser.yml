@@ -16,7 +16,7 @@ builds:
       - darwin
     main: ./main.go
     ldflags:
-      - -N -l
+      - -w
 archives:
   - replacements:
       darwin: Darwin
